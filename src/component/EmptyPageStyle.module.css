@@ -1,0 +1,116 @@
+.main {
+  color: black;
+  width: 500px;
+  text-align: center;
+  display: flexbox;
+  margin: auto;
+  font-size: 30px;
+}
+
+.logo {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.logo img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 40px;
+  transition: all 1s;
+  position: fixed;
+  top: 50px;
+  left: 70px;
+  z-index: 3;
+}
+
+.logo img:hover {
+  transform: scale(1.3);
+  transition: all 1s;
+}
+
+.li {
+  list-style: none;
+}
+
+.lis {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.lis a {
+  margin-right: 35px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+.ol {
+  background-color: lightgray;
+  border-right: 2px solid rgba(200, 200, 200, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100px;
+  z-index: 1;
+  padding: left 50px;
+  margin: 0;
+}
+
+.toggle {
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  transition: all 1s;
+  margin: 12px;
+  display: inline;
+  text-align: center;
+}
+
+.to {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  z-index: 2;
+  transition: all 1s;
+}
+
+.to:hover {
+  transform: scale(0.8);
+  transition: all 0.5s;
+}
+
+.button {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 0;
+  border-radius: 5px;
+  color: gray;
+  cursor: pointer;
+  padding: 8px 12px;
+  margin: auto;
+  display: block;
+}
+
+.icon {
+  font-size: 20px;
+  color: white;
+}
+
+.h2 {
+  font-size: 50px;
+}
+
+.value {
+  width: 1000px;
+  height: 1000px;
+  font-size: 15px;
+  border: none;
+}
+
+.title {
+  width: 1000px;
+  height: 50px;
+  font-size: 30px;
+  border: none;
+}

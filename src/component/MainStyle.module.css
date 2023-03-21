@@ -1,0 +1,60 @@
+.icon {
+  width: 5%;
+  height: 50px;
+  font-size: 1em;
+  color: #fff;
+  position: fixed;
+  left: 10px;
+  top: 10px;
+}
+
+.value {
+  margin-top: 200px;
+  margin-left: 100px;
+  color: #c2c1c1;
+  text-align: left;
+  display: flex;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.value_2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  color: rgb(244, 74, 74);
+  text-align: left;
+  display: flex;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.key {
+  width: 40%;
+  margin-left: 100px;
+  text-align: left;
+  color: #c2c1c1;
+}
+
+.main {
+  width: 90%;
+  height: 90%;
+  background-color: blue;
+}
+
+.main button {
+  background-color: rgb(135, 35, 228);
+  color: #c2c1c1;
+  width: 10%;
+  height: 50px;
+  border-radius: 15px;
+  font-size: 1em;
+  font-weight: bold;
+  display: flex;
+  margin-left: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen {
+}
